@@ -62,11 +62,14 @@
             <version>6.0.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+
+        <!--downgrade spring-context from 6 to 5-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>6.0.2</version>
+            <version>5.3.9</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
         <dependency>
             <groupId>org.springframework</groupId>
